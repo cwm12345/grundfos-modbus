@@ -58,6 +58,18 @@ The profile has a control block (00101-00112: remote/local, on/off, control
 mode, setpoint, flow limit). This library doesn't write it. Taking a pump
 into remote control is a decision for whoever wires it up, not a default.
 
+## Installation
+
+Not on PyPI yet. Install from GitHub:
+
+```
+pip install git+https://github.com/cwm12345/grundfos-modbus
+```
+
+For Home Assistant, you don't need this directly: use the
+[ha-grundfos](https://github.com/cwm12345/ha-grundfos) integration, which
+includes a copy.
+
 ## Usage
 
 ```python
