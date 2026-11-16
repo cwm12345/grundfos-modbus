@@ -60,10 +60,8 @@ into remote control is a decision for whoever wires it up, not a default.
 
 ## Installation
 
-Not on PyPI yet. Install from GitHub:
-
 ```
-pip install git+https://github.com/cwm12345/grundfos-modbus
+pip install grundfos-modbus
 ```
 
 For Home Assistant, you don't need this directly: use the
